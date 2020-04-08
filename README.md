@@ -1,7 +1,7 @@
 # Show-LoadingScreen
  
  ## Example A
- [img](https://github.com/Mentaleak/Show-LoadingScreen/blob/master/Examples/ExampleA.gif?raw=true)
+ ![Example A Gif](https://github.com/Mentaleak/Show-LoadingScreen/blob/master/Examples/ExampleA.gif?raw=true)
  ```pwsh
 $exampleA = show-LoadingScreen -note "Waiting "
     $i=0
