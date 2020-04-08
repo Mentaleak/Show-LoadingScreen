@@ -11,7 +11,8 @@ $exampleA = show-LoadingScreen -note "Waiting "
     }
 $exampleA.Close()
 ```
-
+ ## Example B
+ ![Example B Gif](https://github.com/Mentaleak/Show-LoadingScreen/blob/master/Examples/ExampleB.gif?raw=true)
  ```pwsh
 $exampleB = show-LoadingScreen
     $i=0
@@ -23,7 +24,8 @@ $exampleB = show-LoadingScreen
 $exampleB.Close()
 ```
 
-
+ ## Example C
+ ![Example C Gif](https://github.com/Mentaleak/Show-LoadingScreen/blob/master/Examples/ExampleC.gif?raw=true)
  ```pwsh
 $exampleC = show-LoadingScreen
     $i=0
@@ -35,7 +37,8 @@ $exampleC = show-LoadingScreen
 $exampleC.Close()
 ```
 
-
+ ## Example D
+ ![Example D Gif](https://github.com/Mentaleak/Show-LoadingScreen/blob/master/Examples/ExampleD.gif?raw=true)
  ```pwsh
 $exampleD = show-LoadingScreen
     $i=0
