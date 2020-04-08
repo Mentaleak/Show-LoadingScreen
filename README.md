@@ -1,4 +1,7 @@
-# Show-LoadingScreen
+
+
+<img align="left" width="64" height="64" src="https://raw.githubusercontent.com/Mentaleak/Show-LoadingScreen/master/images/loading.ico?token=AFLELQ7CFGVJZV4ULEN3CQS6S46HC"><h1>Show-LoadingScreen</h1>
+
 
 This is a script that allows a user to show a GUI for loading while their program is working in the background
 It can be used both in determinate and indeterminate scenarios
