@@ -66,16 +66,16 @@ param(
     $LabelNote.text                     = $note
     $LabelNote.AutoSize                 = $false
     $LabelNote.width                    = 140
-    $LabelNote.height                   = 35
+    $LabelNote.height                   = 55
     $LabelNote.location                 = New-Object System.Drawing.Point(5,170)
-    $LabelNote.Font                     = 'Microsoft Sans Serif,15,style=Bold'
+    $LabelNote.Font                     = 'Segoe UI Emoji,15,style=Bold'
     $LabelNote.ForeColor                = "#D3D6D6"
     #$LabelNote.visible                  = $false
     $LoadingScreen.controls.Add($LabelNote)
 
 
 if($note){
-$LoadingScreen.ClientSize      = '150,205'
+$LoadingScreen.ClientSize      = '150,225'
 $LabelNote.visible=$true
 }
 
@@ -111,11 +111,11 @@ $LS | Add-Member -MemberType ScriptMethod -Name "updateNote" -Force -Value {
     if($note){
         $noteLabel = $this.LoadingScreen.controls|where {$_.name -eq "LoadNote"}
         if($noteLabel.visible){
-            $this.LoadingScreen.ClientSize      = '150,205'
+            $this.LoadingScreen.ClientSize      = '150,225'
             $noteLabel.text=$note
         }
         else{
-            $this.LoadingScreen.ClientSize      = '150,205'
+            $this.LoadingScreen.ClientSize      = '150,225'
             $noteLabel.visible=$true
             $noteLabel.text=$note
 
