@@ -1,4 +1,5 @@
-﻿Add-Type -AssemblyName System.Windows.Forms
+﻿# https://github.com/VitalProject/Show-LoadingScreen/
+ Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
 function show-LoadingScreen(){
